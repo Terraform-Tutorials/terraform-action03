@@ -13,3 +13,4 @@ resource "aws_instance" "machine01" {
   security_groups             = ["${aws_security_group.allow_ssh.name}"]
   associate_public_ip_address = true
 }
+#teste
